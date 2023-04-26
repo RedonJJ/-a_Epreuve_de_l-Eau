@@ -30,10 +30,10 @@ def nextFirstNumber(nb)
         puts "#{nb} est lui même un nombre premier."
     end
 
-    #Ajoute 1 pour chercher le nombre suivant.
+    #Ajoute 1 pour lancer la recherche du nombre premier suivant.
     nb += 1
 
-    #Cherche le premier nombre premier suivant en incrémentant nb jusqu'à ce qu'il soit premier.
+    #Cherche le premier nombre premier suivant en incrémentant nb de 1 jusqu'à ce qu'il soit premier.
     nb += 1 until primeNumber(nb)
     puts "Le prochain nombre premier est #{nb}"
 end 
