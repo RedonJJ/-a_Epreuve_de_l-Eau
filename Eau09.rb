@@ -1,6 +1,6 @@
 #Créez un programme qui affiche toutes les valeurs comprises entre deux nombres dans l’ordre croissant. Min inclus, max exclus.
 #Exemple: 20 23 -> 20 21 22 23 || 23 20 -> 20 21 22 23 || "Hello everyone" -> 'Erreur'.
-#fficher 'Erreur' et quitter le programme en cas de problèmes d’arguments.
+#Afficher 'Erreur' et quitter le programme en cas de problèmes d’arguments.
 
 #Méthode.
 def min_max(min, max)

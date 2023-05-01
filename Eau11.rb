@@ -16,7 +16,7 @@ def absolute_min(array)
 end
 
 #Erreurs.
-if ARGV.empty? || ARGV.any? { |i| i.to_i.to_s != i }
+if ARGV.empty? || ARGV.any? { |i| i.to_i.to_s != i } then
     puts 'Erreur'
     exit
 end
